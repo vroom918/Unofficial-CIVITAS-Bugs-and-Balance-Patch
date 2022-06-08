@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Language="en_US" Tag="LOC_TRAIT_LEADER_CVS_DARIUS_UA_DESCRIPTION">
+			<Text>Building an improvement also builds a road. Cities with [ICON_Governor] Governors generate +5% [ICON_Gold] Gold and have +1 [ICON_Amenities] Amenity per Governor title, and recruiting a [ICON_GreatMerchant] Great Merchant grants a free [ICON_Governor] Governor title.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

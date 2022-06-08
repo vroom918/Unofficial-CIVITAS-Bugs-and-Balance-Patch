@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="df172782-d989-46cf-8571-b8022d4d1beb" version="1">
+  <Properties>
+    <Name>Unofficial CIVITAS Bug and Balance Patch</Name>
+    <Description>Fixes and rebalances civilizations and leaders from the CIVITAS Collection. This mod has no requirements and will apply to any affected CIVITAS mods you have installed.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+	<Created>1654399857</Created>
+    <Teaser>Fixes and rebalances civilizations and leaders from the CIVITAS Collection.</Teaser>
+    <Authors>vroom918</Authors>
+  </Properties>
+  <Dependencies>
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="CIVITAS_Patch_DB_FE">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Bugs/Config.sql</File>
+	  <File>Balance/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CIVITAS_Patch_Text_FE">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Bugs/Text.sql</File>
+      <File>Balance/Text.sql</File>
+      <File>Balance/Text.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="CIVITAS_Patch_DB_IG">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Bugs/Main.sql</File>
+      <File>Balance/Main.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="CIVITAS_Patch_Text_IG">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+	  <File>Bugs/Text.sql</File>
+	  <File>Balance/Text.sql</File>
+      <File>Balance/Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="CIVITAS_Patch_Scripts">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Scripts/Djoser_Functions.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Bugs/Main.sql</File>
+	<File>Bugs/Config.sql</File>
+    <File>Bugs/Text.sql</File>
+    <File>Balance/Main.sql</File>
+	<File>Balance/Config.sql</File>
+    <File>Balance/Text.sql</File>
+    <File>Balance/Text.xml</File>
+	<File>Scripts/Djoser_Functions.lua</File>
+  </Files>
+</Mod>
