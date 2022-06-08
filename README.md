@@ -1,4 +1,4 @@
-# Unofficial CIVITAS Bugs and Balance Patch
+# Unofficial CIVITAS Patch
 
 A Civ 6 mod which fixes some bugs with various other mods in the [CIVITAS Collection](https://steamcommunity.com/workshop/filedetails/?id=1205609555) and makes some balance changes. I do not own those mods nor am I affiliated with them, but they're quality stuff and just missing a few things.
 
